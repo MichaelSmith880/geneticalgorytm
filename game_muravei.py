@@ -144,7 +144,7 @@ def mutation(group, pm):
     px = len(group)
     py = len(group[0])
 
-    for i in range(px):  # Пересекание
+    for i in range(px):  # intersection
         if (random.random() < pm):
             mpoint = random.randint(0, py - 1)  #
             if (group[i][mpoint] == 1):
